@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Responsive Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+        <div class="form-group">
+            <label for="address-type">Address Type</label>
+            <input type="text" id="address-type" placeholder="Permanent or Temporary">
+        </div>
+        <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" id="state" placeholder="Enter your state">
+        </div>
+        <div class="form-group">
+            <label for="district">District</label>
+            <input type="text" id="district" placeholder="Enter your district">
+        </div>
+        <div class="form-group">
+            <label for="block-number">Block Number</label>
+            <input type="text" id="block-number" placeholder="Enter block number">
+        </div>
+        <div class="form-group">
+            <label for="company-name">Company Name</label>
+            <input type="text" id="company-name" placeholder="Enter company name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter official email">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone no</label>
+            <input type="tel" id="phone" placeholder="Enter official contact number">
+        </div>
+        <div class="form-group">
+            <label for="tin">TIN</label>
+            <input type="text" id="tin" placeholder="Enter TIN">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-back">Back</button>
+            <button class="btn btn-submit">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px; /* Add some space between form groups */
+}
+
+.form-group button {
+    margin: 5px; /* Add some space between buttons */
+    padding: 10px 20px; /* Adjust padding for better button appearance */
+}
+
+.btn-back {
+    background-color: #007bff; /* Adjust color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    background-color: #28a745; /* Adjust color as needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+</style>
